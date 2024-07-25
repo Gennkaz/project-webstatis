@@ -90,8 +90,9 @@
     width: 120px;
     text-align: center;
     border-radius: 2px;
-    font-size: 25px;
+    font-size: 20px;
     text-decoration: none;
+    padding: 5px;
     box-shadow: 0px 6px 15px 2px rgba(0,0,0,0.75);
     -webkit-box-shadow: 0px 6px 15px 2px rgba(0,0,0,0.75);
     -moz-box-shadow: 0px 6px 15px 2px rgba(0,0,0,0.75);
@@ -104,11 +105,100 @@
 section{
     min-height: 100vh;
     display: flex;
-    align-items: center;
     background: gray;
     color: white;
 }
 
 section:nth-child(odd){
-    background: red;
+    background: rgb(30, 37, 30);
+}
+
+.container{
+    width: 100%;
+    margin-top: 70px;
+    padding: 5px;
+    box-sizing: border-box;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    text-align: center;
+}
+
+
+.container div{
+    width: 430px;
+    height: 270px;
+    float: left;
+    margin: 2px;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+}
+
+.container h1{
+    color: white;
+    padding: 5px;
+}
+
+.container table{
+    text-align: left;
+    padding: 5px;
+    width: 400px;
+}
+
+.satu{
+    background: url('image/20240725_093832.jpg') no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.dua{
+    background: url('image/20240725_093929.jpg') no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.tiga{
+    background: url('image/20240725_093806.jpg') no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.empat{
+    background: url('image/20240725_093904.jpg') no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.lima{
+    background: url('image/20240725_093947.jpg') no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.satu a{
+    color: white;
+    text-decoration: none;
+}
+
+.dua a{
+    color: white;
+    text-decoration: none;
+}
+
+.tiga a{
+    color: white;
+    text-decoration: none;
+}
+
+.empat a{
+    color: white;
+    text-decoration: none;
+}
+
+.lima a{
+    color: white;
+    text-decoration: none;
 }
