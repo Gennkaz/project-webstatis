@@ -87,7 +87,7 @@
 .content a{
     color: white;
     background: red;
-    width: 120px;
+    width: 130px;
     text-align: center;
     border-radius: 2px;
     font-size: 20px;
@@ -105,7 +105,7 @@
 section{
     min-height: 100vh;
     display: flex;
-    background: gray;
+    background: rgb(78, 23, 23);
     color: white;
 }
 
@@ -178,6 +178,36 @@ section:nth-child(odd){
     background-position: center;
 }
 
+.enam{
+    background: red;
+    background-size: cover;
+    background-position: center;
+}
+
+.tujuh{
+    background: blue;
+    background-size: cover;
+    background-position: center;
+}
+
+.delapan{
+    background: white;
+    background-size: cover;
+    background-position: center;
+}
+
+.sembilan{
+    background: black;
+    background-size: cover;
+    background-position: center;
+}
+
+.sepuluh{
+    background: yellow;
+    background-size: cover;
+    background-position: center;
+}
+
 .satu a{
     color: white;
     text-decoration: none;
@@ -202,3 +232,29 @@ section:nth-child(odd){
     color: white;
     text-decoration: none;
 }
+
+.enam a{
+    color: white;
+    text-decoration: none;
+}
+
+.tujuh a{
+    color: white;
+    text-decoration: none;
+}
+
+.delapan a{
+    color: white;
+    text-decoration: none;
+}
+
+.sembilan a{
+    color: white;
+    text-decoration: none;
+}
+
+.sepuluh a{
+    color: white;
+    text-decoration: none;
+}
+
