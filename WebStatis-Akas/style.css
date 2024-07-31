@@ -76,7 +76,7 @@
 }
 
 .content h1{
-    width: 350px;
+    width: 460px;
     font-size: 50px;
 }
 
@@ -149,61 +149,62 @@ section:nth-child(odd){
 }
 
 .satu{
-    background: url('image/20240725_093832.jpg') no-repeat;
+    background: url('image/ff.jpg') no-repeat;
     background-size: cover;
     background-position: center;
+    cursor: pointer;
 }
 
 .dua{
-    background: url('image/20240725_093929.jpg') no-repeat;
+    background: url('image/ml.jpg') no-repeat;
     background-size: cover;
     background-position: center;
 }
 
 .tiga{
-    background: url('image/20240725_093806.jpg') no-repeat;
+    background: url('image/hok.jpg') no-repeat;
     background-size: cover;
     background-position: center;
 }
 
 .empat{
-    background: url('image/20240725_093904.jpg') no-repeat;
+    background: url('image/pubg.jpg') no-repeat;
     background-size: cover;
     background-position: center;
 }
 
 .lima{
-    background: url('image/20240725_093947.jpg') no-repeat;
+    background: url('image/genshin.jpg') no-repeat;
     background-size: cover;
     background-position: center;
 }
 
 .enam{
-    background: red;
+    background: url('image/roblox.jpg') no-repeat;
     background-size: cover;
     background-position: center;
 }
 
 .tujuh{
-    background: blue;
+    background: url('image/minecraft.jpg') no-repeat;
     background-size: cover;
     background-position: center;
 }
 
 .delapan{
-    background: green;
+    background: url('image/coc.jpg') no-repeat;
     background-size: cover;
     background-position: center;
 }
 
 .sembilan{
-    background: black;
+    background: url('image/star.jpg') no-repeat;
     background-size: cover;
     background-position: center;
 }
 
 .sepuluh{
-    background: yellow;
+    background: url('image/zzz.jpg') no-repeat;
     background-size: cover;
     background-position: center;
 }
