@@ -14,8 +14,9 @@
     top: 0;
     left: 0;
     width: 100%;
-    padding: 20px 100px;
-    background: transparent;
+    padding: 10px 100px;
+    background-color: rgba(0, 0, 0, 0.2); 
+    color: rgba(0, 0, 0, 0.2);
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -59,7 +60,7 @@
 
 .homepage{
     min-height: 100vh;
-    background: url('image/1369831.png') no-repeat;
+    background: url('image/judul.png') no-repeat;
     background-size: cover;
     background-position: center;
 }
@@ -127,13 +128,18 @@
 
 section{
     min-height: 100vh;
+    background: url('image/tiga.png') no-repeat;
+    background-size: cover;
+    background-position: center;
     display: flex;
-    background: rgb(78, 23, 23);
     color: white;
 }
 
 section:nth-child(odd){
-    background: rgb(30, 37, 30);
+    min-height: 100vh;
+    background: url('image/duaaa.png') no-repeat;
+    background-size: cover;
+    background-position: center;
 }
 
 .container{
