@@ -142,6 +142,15 @@ section:nth-child(odd){
     background-position: center;
 }
 
+.game{
+    background-color: black;
+    color: black;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: end;
+}
+
 .container{
     width: 100%;
     margin-top: 60px;
@@ -169,6 +178,14 @@ section:nth-child(odd){
 .container h1{
     color: white;
     padding: 5px;
+}
+
+.container h2{
+    color: white;
+    margin-top: -50px;
+    display: flex;
+    justify-content: center;
+    position: absolute;
 }
 
 .container table{
@@ -733,3 +750,20 @@ abbr {
     background-color: red;
 }
 
+.about{
+    display: flex;
+    justify-content: center;
+}
+
+.about h2{
+    margin-top: 80px;
+}
+
+.contact{
+    display: flex;
+    justify-content: center;
+}
+
+.contact h2{
+    margin-top: 80px;
+}
