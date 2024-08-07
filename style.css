@@ -14,9 +14,9 @@
     top: 0;
     left: 0;
     width: 100%;
-    padding: 10px 100px;
-    background-color: rgba(0, 0, 0, 0.2); 
-    color: rgba(0, 0, 0, 0.2);
+    padding: 10px 100px; 
+    background: rgba(0, 0, 0, .1);
+    backdrop-filter: blur(20px);
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -37,6 +37,13 @@
     text-decoration: none;
     font-weight: 500;
     margin-left: 40px;
+}
+
+.icons{
+    font-size: 2.8rem;
+    color: white;
+    cursor: pointer;
+    display: none;
 }
 
 .navbar a::before{
@@ -750,13 +757,55 @@ abbr {
     background-color: red;
 }
 
-.about{
+.bot{
     display: flex;
     justify-content: center;
+    height: 100vh;
+    width: 100%;
 }
 
-.about h2{
+.bot h2{
     margin-top: 80px;
+}
+
+.tentang{
+    position: absolute;
+    width: 100%;
+    height: 60%;
+    margin: 30px auto;
+    padding: 5px;
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 10%;
+}
+
+.tentang div{
+    width: 50%;
+    height: 100%;
+    float: left;
+    margin: 5px;
+}
+
+.kesatu{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.kedua ul{
+    list-style: none;
+}
+
+ul li{
+    padding: 25px;
+}
+
+i{
+    font-size: 40px;
+}
+
+.kesatu h1 {
+    width: 400px;
 }
 
 .contact{
@@ -767,3 +816,4 @@ abbr {
 .contact h2{
     margin-top: 80px;
 }
+
