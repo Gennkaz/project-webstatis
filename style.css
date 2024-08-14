@@ -985,7 +985,7 @@ ul li{
     height: 100vh;
     width: 100%;
     position: absolute;
-    background: gray;
+    background: rgb(128, 128, 128);
 }
 
 .promosi{
@@ -996,6 +996,7 @@ ul li{
 
 .promosi h3{
     margin-top: 60px;
+    font-size: 1.5rem;
 }
 
 .footer-dua{
@@ -1029,10 +1030,6 @@ ul li{
 
 #ig{
     color: black;
-}
-
-.row-footer{
-    margin: 5px 0;
 }
 
 .row-footer ul{
@@ -1080,9 +1077,9 @@ ul li{
 .more{
     display: flex;
     flex-direction: column;
-    gap: 7px;
+    gap: 5px;
     text-decoration: none;
-    width: 330px;
+    width: 280px;
     height: 270px;
     padding: 10px;
     border-radius: 10px;
@@ -1100,10 +1097,16 @@ ul li{
     -o-border-radius: 10px;
     padding: 2px;
     height: 130px;
+    z-index: 1;
 }
 
 .more p{
     font-size: 16px;
     text-decoration: none;
     color: black;
+}
+
+.splide__slide{
+    display: flex;
+    justify-content: center;
 }
